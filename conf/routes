@@ -1,0 +1,9 @@
+POST        /card_mappings               hftn.service.sample.server.web.v1.CardMappingController.post
+GET         /card_mappings/:id           hftn.service.sample.server.web.v1.CardMappingController.get(id: Int)
+GET         /card_mappings               hftn.service.sample.server.web.v1.CardMappingController.getList(deckId : Int)
+
+
+POST        /decks                       hftn.service.sample.server.web.v1.DeckController.post
+GET         /decks/:id                   hftn.service.sample.server.web.v1.DeckController.get(id: Int)
+GET         /decks                       hftn.service.sample.server.web.v1.DeckController.getDecks
+
