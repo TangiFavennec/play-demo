@@ -1,2 +1,9 @@
 *.class
 *.log
+
+.idea
+
+## Ignored project files
+project/target
+project/project
+target
